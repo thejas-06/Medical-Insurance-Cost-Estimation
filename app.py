@@ -12,7 +12,7 @@ st.sidebar.header("Input Features")
 
 # Get user input for the features
 age = st.sidebar.slider("Age", 18, 100, 30)
-bmi = st.sidebar.slider("BMI", 15.0, 50.0, 25.0)
+bmi = st.sidebar.slider("BMI", 25.0, 50.0, 25.0)
 children = st.sidebar.number_input("Number of Children", 0, 10, 0)
 
 # Categorical inputs
